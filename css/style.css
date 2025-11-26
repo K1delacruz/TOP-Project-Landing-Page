@@ -1,0 +1,34 @@
+*
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: monospace; 
+}
+
+body {
+  color: #f9faf8;
+}
+a {
+  color: #f9faf8;
+}
+
+header {
+  display: inline;
+  background: #1f2937;
+}
+
+nav {
+  display: inline;
+  background: #1f2937;
+}
+
+.section1 {
+  background: #1f2937;
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
