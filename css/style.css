@@ -1,34 +1,36 @@
-*
 *::before,
 *::after {
   box-sizing: border-box;
-  font-family: monospace; 
 }
 
 body {
   color: #f9faf8;
+  background: orange;
 }
+
 a {
   color: #f9faf8;
-}
-
-header {
-  display: inline;
-  background: #1f2937;
-}
-
-nav {
-  display: inline;
-  background: #1f2937;
+  padding: 0 15px;
 }
 
 .section1 {
   background: #1f2937;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
-.flex {
-  display: flex;
-  justify-content: center;
+.childsection1 {
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+h1 {
+  display: block;
+  flex: 1 1 auto;
+  font: 48px #f9faf8 600;
+  order: 1;
+}
+
+img {
+  order: 2;
 }
