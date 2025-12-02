@@ -3,26 +3,38 @@
   box-sizing: border-box;
 }
 
+
+* {
+  margin: 0;
+}
+
+
 body {
+  margin; 0;
   color: #f9faf8;
   background: orange;
 }
+
 
 a {
   color: #f9faf8;
   padding: 0 15px;
 }
 
+
 .section1 {
   background: #1f2937;
   display: flex;
   justify-content: space-around;
+  margin: 0;
 }
 
+
 .childsection1 {
-  flex-wrap: wrap;
-  flex-direction: row;
+  background: #1f2937;
+  margin: 0;
 }
+
 
 h1 {
   display: block;
@@ -30,6 +42,7 @@ h1 {
   font: 48px #f9faf8 600;
   order: 1;
 }
+
 
 img {
   order: 2;
