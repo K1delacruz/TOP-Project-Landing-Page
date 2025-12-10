@@ -1,49 +1,113 @@
+*,
 *::before,
 *::after {
   box-sizing: border-box;
-}
-
-
-* {
   margin: 0;
 }
 
 
+:root {
+  --hero-bg-color: #1F2937;
+  --hero-font-color: #F9FAF8;
+  --hero-link-font-color: #E5E7EB;
+  --margin: 0 50px;
+  --font-black: #1F2937;
+}
+
+
+.container {
+  background: var(--hero-bg-color);
+  height: 500px;
+}
+
+
+
 body {
-  margin; 0;
-  color: #f9faf8;
+  color: var(--hero-font-color);
   background: orange;
+  /*temporary for visibility*/
+}
+
+
+header {
+  background: var(--hero-bg-color);
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+
+nav {
+  display: flex;
+  gap: 50px;
 }
 
 
 a {
-  color: #f9faf8;
-  padding: 0 15px;
+  color: var(--hero-link-font-color);
 }
 
 
-.section1 {
-  background: #1f2937;
+button {
+  background: #3882F6;
+  color: var(--hero-font-color);
+}
+
+
+/* Hero Section 2 */
+
+
+.hero2 {
+  margin: 50px;
   display: flex;
-  justify-content: space-around;
-  margin: 0;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  gap: 200px;
+}
+
+.hero2text {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero2button {
+  width: 10cap;
 }
 
 
-.childsection1 {
-  background: #1f2937;
-  margin: 0;
+.container2 {
+  background: white;
+  height: 500px;
+}
+
+.container2 h2 {
+  font-size: 36px;
+  color: var(--font-black);
+  font-weight: 900;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+}
+
+.boxes p {
+  color: var(--font-black)
+}
+
+.box1,
+.box2,
+.box3 div {
+  border: black solid 3px;
+  height: 100px;
+  width: 100px;
+
 }
 
 
-h1 {
-  display: block;
-  flex: 1 1 auto;
-  font: 48px #f9faf8 600;
-  order: 1;
-}
-
-
-img {
-  order: 2;
+.box1 {
+  display: flex;
+  flex-direction: column;
 }
